@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+djangorestframework = "*"
+nltk = "*"
+pickle5 = "*"
+tensorflow = "*"
+django-cors-headers = "*"
+uwsgi = "*"
+gunicorn = "*"
+
+[requires]
+python_version = "3.8"
